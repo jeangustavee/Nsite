@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.jumbotron {
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  background: url(../img/supporting-black-owned-businesses.jpeg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  border-radius: 0rem;
+  height: 700px;
+}
+
+.jumbotron img {
+    padding-top: 140px;
+}
+
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  text-transform: uppercase;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: transparent;
+  border: solid 2px #fff;
+  border-radius: 0px;
+}
+
+.btn-primary:hover {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.my-4 {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+    
+}
+.subscription {
+    color: white;
+    background-color: black;
+    height: 150px;
+    margin-top: -33px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.form-control {
+  display: block;
+  width: 50%;
+  padding: 0.5rem 0.75rem;
+  margin-left: 30px;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #464a4c;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0rem;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+.intro {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.intro-heading {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.intro-paragraph {
+    font-size: 1.2em;
+}
+
+.ideas {
+    background-color: #F1F6F8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ideas p{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.ideas-heading {
+    padding: 20px;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+ .card-deck {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0rem;
+}
+
+.card-title {
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.card-block p {
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.progress {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 0rem;
+  border: solid 1px #000;
+  margin-top: 50px;
+}
+
+.progress-bar {
+  height: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+
+.stats {
+    display: inline;
+    padding-right: 20px;
+}
+
+.about {
+    color: ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-heading {
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.about-text {
+    font-size: 1.1em;
+    line-height: inherit;
+}
+
+.navbar {
+    background-color: black;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar-text {
+    color: white;
+  display: inline-block;
+  padding-top: .425rem;
+  padding-bottom: .425rem;
+  text-align: center;
+}
